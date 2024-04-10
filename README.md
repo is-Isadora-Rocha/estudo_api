@@ -23,7 +23,8 @@ Aprendendo a fazer uma API
 	"email": "meuemail@example.com",
 	"senha": "minhasenha123"
 }
-
+```
+```
 201 created
 
 {
