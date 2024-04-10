@@ -13,10 +13,23 @@ Aprendendo a fazer uma API
 
 #### APIREST NO INSOMNIA
 
-- GET `http://localhost:3000/usuarios` 
-- POST `http://localhost:3000/usuarios`
-- PUT `http://localhost:3000/usuarios/id`
-- DELETE `http://localhost:3000/usuarios/id`
+- GET `http://localhost:3000/api/v1/usuarios` 
+- POST `http://localhost:3000/api/v1/usuarios`
+- PUT `http://localhost:3000/api/v1/usuarios/id`
+- DELETE `http://localhost:3000/api/v1/usuarios/id`
+
+##### routes: 
+```
+namespace :api do
+    namespace :v1 do
+```
+
+##### controller: 
+```
+module Api
+  module V1
+    class UsuariosController < ApplicationController [...]
+```
 
 - JSON (post): 
 ```
