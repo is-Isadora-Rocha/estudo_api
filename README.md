@@ -1,6 +1,7 @@
 # README
+Aprendendo a fazer uma API 
 
-### PRIMEIROS PASSOS
+#### PRIMEIROS PASSOS
 `rails new estudo_api --api -d mysql`
 
 #### SCAFFOLD
