@@ -15,6 +15,8 @@ Aprendendo a fazer uma API
 
 - GET `http://localhost:3000/usuarios` 
 - POST `http://localhost:3000/usuarios`
+- PUT `http://localhost:3000/usuarios/id`
+- DELETE `http://localhost:3000/usuarios/id`
 
 - JSON (post): 
 ```
