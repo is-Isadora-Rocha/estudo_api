@@ -15,7 +15,8 @@ Aprendendo a fazer uma API
 
 - GET `http://localhost:3000/usuarios` 
 - POST `http://localhost:3000/usuarios`
-JSON (post): 
+
+- JSON (post): 
 ```
 {
 	"nome": "Isadora",
